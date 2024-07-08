@@ -1,0 +1,65 @@
+body {
+  background: (hsl(74.62, 41.44%, 62.41%) 37.1%;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+/* inicio boton buscar */
+.css-button-shadow-border-sliding--yellow {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  background: #0b43fd;
+  z-index: 1;
+}
+.css-button-shadow-border-sliding--yellow:hover:after {
+  width: 100%;
+  left: 0;
+}
+.css-button-shadow-border-sliding--yellow:after {
+  border-radius: 10px;
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+  background-color: #297460;
+  right: 0;
+}
+.css-button-shadow-border-sliding--yellow:active {
+  top: 2px;
+}
+/* fin boton buscar */
+
+
+.card {
+  padding-left: 2%;
+  background: #D9F7E9;
+}
+
+.navbar {
+  background: #F0F8E2;
+}
+
+.container {
+  display: block;
+  padding-top: 70px;
+}
+
